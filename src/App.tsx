@@ -1,5 +1,12 @@
+import { BrowserRouter } from "react-router-dom";
+import Router from "./router/Router";
+
 function App() {
-  return <div className="App">hello SEMO!</div>;
+  return (
+    <BrowserRouter>
+      <Router></Router>
+    </BrowserRouter>
+  );
 }
 
 export default App;
