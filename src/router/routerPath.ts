@@ -1,2 +1,10 @@
 export const HOME = "/";
-export const LOGIN_AND_SIGNUP = "/auth";
+// export const AUTH = "/auth";
+
+export const AUTH = {
+  auth: "/auth",
+  authRoot: "",
+  nickname: "nickname",
+  interest: "interest",
+  introduce: "introduce",
+};
