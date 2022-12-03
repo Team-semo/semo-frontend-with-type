@@ -1,5 +1,12 @@
+import PageLayout from "./components/PageLayout";
+import Router from "./router/Router";
+
 function App() {
-  return <div className="App">hello SEMO!</div>;
+  return (
+    <PageLayout>
+      <Router />
+    </PageLayout>
+  );
 }
 
 export default App;
